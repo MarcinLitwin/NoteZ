@@ -8,6 +8,7 @@ body {
     font-weight: 100;
     margin: 0;
     padding: 0;
+    background-color: #fffaf1;
 }
 
 .header {
@@ -17,6 +18,13 @@ body {
     height: 50px;
     align-items: center;
     margin: 10px 30px 0px;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .menu,
@@ -46,11 +54,12 @@ button {
 }
 
 .textBox {
-    border: 3px solid #7e7e7e;
+    border: 3px solid black;
     border-radius: 20px;
     height: 90vh;
     margin: 10px 30px;
     overflow-y: scroll;
+    background-color: white;
 }
 .text {
     margin: 10px;
